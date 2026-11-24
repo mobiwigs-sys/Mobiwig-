@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crown & Lace Guide | Best Wigs for Black Women</title>
+  <style>
+    :root {
+      --bg: #faf6f2;
+      --dark: #1f1412;
+      --accent: #b88252;
+      --accent-dark: #946338;
+      --card: #ffffff;
+      --muted: #6b5b57;
+      --border: #eadfd6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    /* Top Affiliate Disclosure Bar */
+    .disclosure-bar {
+      background: var(--dark);
+      color: #f3e8df;
+      text-align: center;
+      font-size: 13px;
+      padding: 8px 15px;
+    }
+    /* Header & Navigation */
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--dark);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: var(--accent); }
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      margin-left: 20px;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    nav a:hover { color: var(--accent); }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #2b1a17 0%, #4d2f27 100%);
+      color: #fff;
+      text-align: center;
+      padding: 70px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+      max-width: 750px;
+      margin: 0 auto 16px;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 620px;
+      margin: 0 auto 28px;
+      color: #ebd9cc;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 12px 26px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.2s;
+    }
+    .btn:hover { background: var(--accent-dark); }
+
+    /* Main Container */
+    .container {
+      max-width: 1120px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .section-subtitle {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    /* Categories Grid */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-bottom: 55px;
+    }
+    .cat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 24px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .cat-card h3 { margin-bottom: 8px; font-size: 18px; }
+    .cat-card p { font-size: 14px; color: var(--muted); }
+
+    /* Product Cards (Amazon Picks) */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 24px;
+      margin-bottom: 55px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .img-placeholder {
+      height: 210px;
+      background: linear-gradient(135deg, #ead8ca, #d8bcab);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #4a332b;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      padding: 15px;
+    }
+    .card-body {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .badge {
+      display: inline-block;
+      background: #f5e6d8;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+    .card h3 { font-size: 20px; margin-bottom: 10px; }
+    .card p { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+    .pros {
+      list-style: none;
+      font-size: 13px;
+      margin-bottom: 20px;
+      color: #3b2d29;
+    }
+    .pros li { margin-bottom: 6px; }
+    .amazon-btn {
+      margin-top: auto;
+      text-align: center;
+      background: #ff9900;
+      color: #111;
+      padding: 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      display: block;
+    }
+    .amazon-btn:hover { background: #e68a00; }
+
+    /* Blog Articles Section */
+    .article-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .article-card h3 { margin-bottom: 10px; }
+    .article-card p { color: var(--muted); font-size: 15px; margin-bottom: 14px; }
+    .read-more {
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--dark);
+      color: #d6c8be;
+      padding: 45px 20px;
+      margin-top: 60px;
+    }
+    .footer-inner {
+      max-width: 1120px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+    footer h4 { color: #fff; margin-bottom: 12px; }
+    footer a {
+      color: #d6c8be;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    footer a:hover { color: var(--accent); }
+    .footer-bottom {
+      max-width: 1120px;
+      margin: 30px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid #3a2925;
+      font-size: 13px;
+      color: #a8958a;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 28px; }
+      nav a { margin-left: 12px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Mandatory Amazon Affiliate Disclosure -->
+  <div class="disclosure-bar">
+    Affiliate Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.
+  </div>
+
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">Crown<span>&amp;</span>Lace</a>
+      <nav>
+        <a href="#categories">Categories</a>
+        <a href="#top-wigs">Top Wigs</a>
+        <a href="#guides">Guides</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Find the Best Flawless Wigs for Black Women</h1>
+    <p>Honest buying guides, glueless human hair reviews, and beginner-friendly lace tips—all curated to help you slay effortlessly.</p>
+    <a href="#top-wigs" class="btn">Explore Top Rated Wigs</a>
+  </section>
+
+  <main class="container">
+
+    <!-- Categories -->
+    <section id="categories">
+      <h2 class="section-title">Shop by Wig Style</h2>
+      <p class="section-subtitle">Choose the texture and cap style that fits your everyday routine.</p>
+      <div class="cat-grid">
+        <div class="cat-card">
+          <h3>Glueless Wear &amp; Go</h3>
+          <p>Pre-cut lace and pre-plucked hairlines—ready in 30 seconds.</p>
+        </div>
+        <div class="cat-card">
+          <h3>HD Lace Front</h3>
+          <p>Ultra-thin lace that melts seamlessly into rich melanin skin tones.</p>
+        </div>
+        <div class="cat-card">
+          <h3>Curly &amp; Deep Wave</h3>
+          <p>Defined curls with bounce, volume, and minimal shedding.</p>
+        </div>
+        <div class="cat-card">
+          <h3>Wig Care &amp; Tools</h3>
+          <p>Melting sprays, hot combs, edge control, and satin bonnets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Amazon Picks -->
+    <section id="top-wigs">
+      <h2 class="section-title">2026 Top Amazon Wig Picks</h2>
+      <p class="section-subtitle">Tested features: 100% Virgin Human Hair, 180% Density, and Breathable Caps.</p>
+      <div class="grid-3">
+
+        <article class="card">
+          <div class="img-placeholder">[Add Royalty-Free or Amazon SiteStripe Image: Glueless Water Wave Wig]</div>
+          <div class="card-body">
+            <span class="badge">Best Overall</span>
+            <h3>Wear &amp; Go Glueless Water Wave Wig (180% Density)</h3>
+            <p>Perfect for beginners—features pre-bleached knots, pre-cut 6x4 HD lace, and an adjustable elastic band.</p>
+            <ul class="pros">
+              <li>✔ Zero glue or gel required</li>
+              <li>✔ Soft Brazilian virgin human hair</li>
+              <li>✔ Melts naturally on brown skin</li>
+            </ul>
+            <!-- Replace # with your Amazon Affiliate Link -->
+            <a href="#YOUR-AMAZON-LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">Check Price on Amazon</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="img-placeholder">[Add Royalty-Free or Amazon SiteStripe Image: 13x4 Straight HD Lace Wig]</div>
+          <div class="card-body">
+            <span class="badge">Best Lace Melt</span>
+            <h3>13x4 Bone Straight HD Lace Front Wig</h3>
+            <p>Sleek, silky straight human hair with deep parting space for versatile middle or side parts.</p>
+            <ul class="pros">
+              <li>✔ Ultra-thin invisible HD lace</li>
+              <li>✔ Can be flat-ironed or curled</li>
+              <li>✔ True to length (18"–28")</li>
+            </ul>
+            <a href="#YOUR-AMAZON-LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">Check Price on Amazon</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="img-placeholder">[Add Royalty-Free or Amazon SiteStripe Image: Short Bob Glueless Wig]</div>
+          <div class="card-body">
+            <span class="badge">Best Budget Pick</span>
+            <h3>12-Inch Blunt Cut Bob Human Hair Wig</h3>
+            <p>Chic, lightweight everyday bob that stays tangle-free and holds a sleek finish in humid weather.</p>
+            <ul class="pros">
+              <li>✔ Affordable 100% human hair</li>
+              <li>✔ Breathable, lightweight cap</li>
+              <li>✔ Great for work and daily wear</li>
+            </ul>
+            <a href="#YOUR-AMAZON-LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">Check Price on Amazon</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Latest Blog Guides -->
+    <section id="guides">
+      <h2 class="section-title">Latest Wig Guides &amp; Reviews</h2>
+      <p class="section-subtitle">Learn how to pick, install, and care for your wigs like a pro.</p>
+      <div class="grid-3">
+        <div class="article-card">
+          <h3>HD Lace vs. Transparent Lace: Which Melts Best on Dark Skin?</h3>
+          <p>Confused about which lace disappears on your skin tone without heavy makeup? Here is our complete side-by-side comparison.</p>
+          <a href="#" class="read-more">Read Full Guide →</a>
+        </div>
+        <div class="article-card">
+          <h3>7 Best Glueless Wigs on Amazon That Take 30 Seconds to Put On</h3>
+          <p>No glue, no mess, no edge damage. Check out the top-rated wear-and-go wigs worth every dollar.</p>
+          <a href="#" class="read-more">Read Full Guide →</a>
+        </div>
+        <div class="article-card">
+          <h3>Essential Wig Kit for Beginners: 5 Must-Have Tools Under $25</h3>
+          <p>From electric hot combs to waterproof melting sprays, build your starter kit without overspending.</p>
+          <a href="#" class="read-more">Read Full Guide →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="about">
+    <div class="footer-inner">
+      <div>
+        <h4>Crown &amp; Lace Guide</h4>
+        <p style="font-size: 14px;">Dedicated to helping Black women find high-quality, natural-looking wigs and hair care essentials online.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#categories">Categories</a>
+        <a href="#top-wigs">Top Wigs</a>
+        <a href="#guides">Buying Guides</a>
+      </div>
+      <div>
+        <h4>Legal Pages</h4>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Affiliate Disclosure</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Crown &amp; Lace Guide. All rights reserved. Crown &amp; Lace Guide is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
